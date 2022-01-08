@@ -1,0 +1,33 @@
+{
+  "name": "tech-blog-feat-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkanczuzewski/Tech-Blog-Featuring-MVC.git"
+  },
+  "author": "Mark Kanczuzewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkanczuzewski/Tech-Blog-Featuring-MVC/issues"
+  },
+  "homepage": "https://github.com/mkanczuzewski/Tech-Blog-Featuring-MVC#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "jest": "^27.4.7",
+    "mysql2": "^2.3.3",
+    "save": "^2.4.0",
+    "sequelize": "^6.12.5"
+  }
+}
