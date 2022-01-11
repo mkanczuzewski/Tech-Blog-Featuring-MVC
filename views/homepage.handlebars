@@ -7,7 +7,7 @@
       </div>
       <div class="meta">
         Created By: {{post.user.username}} on
-        {{post.created_at}}
+        {{format_dates post.created_at}}
         |
         <a href="/post/{{post.id}}">{{post.comments.length}} comment(s)</a>
       </div>

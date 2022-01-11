@@ -26,7 +26,7 @@
   {{#each post.comments}}
   <section class="comment">
     <div class="meta">
-      {{user.username}} on {{created_at}}
+      {{user.username}} on {{format_dates created_at}}
     </div>
     <div class="text">
       {{comment_text}}
