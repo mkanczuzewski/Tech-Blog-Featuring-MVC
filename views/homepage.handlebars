@@ -15,3 +15,10 @@
   </li>
   {{/each}}
 </ol>
+{{#if loggedIn}}
+<form action="/dashboard">
+<button type="submit" class="btn">New Post</button>
+</form>
+{{else}}
+<h2>Login To Post!</h2>
+{{/if}}
