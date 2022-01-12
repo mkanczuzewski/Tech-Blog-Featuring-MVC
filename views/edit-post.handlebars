@@ -8,7 +8,7 @@
         <label for="post-title">Title</label>
         <input name="post-title" type="text" value="{{post.title}}" />
         <label for="post-text">Post Text</label>
-        <textarea id="post-text" name="post-text" value="{{post.post_text}}"></textarea>
+        <textarea id="post-text" name="post-text" type="text">{{post.post_text}}</textarea>
     </div>
     <div>
       <a href="/post/{{post.id}}">{{post.comments.length}} comment(s)</a>
