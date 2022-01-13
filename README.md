@@ -20,7 +20,8 @@ First, install google chrome, gitbash, visual studio code if you wish to review 
 
 ## Usage
 This project is used to demonstraite a technical blog posting solution. <br />
-Public Website URL: https://git.heroku.com/tech-blog-feat-mvc.git <br />
+Public Website URL: https://tech-blog-feat-mvc.herokuapp.com/ <br />
+Public Heroku GIT: https://git.heroku.com/tech-blog-feat-mvc.git <br />
 GitHub URL: https://github.com/mkanczuzewski/Tech-Blog-Featuring-MVC <br />
 
 ## License
